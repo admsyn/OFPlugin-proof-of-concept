@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		666B143717BB2E8A00CC155A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 666B143617BB2E8A00CC155A /* AppKit.framework */; };
+		666B143917BB2E8A00CC155A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 666B143817BB2E8A00CC155A /* Foundation.framework */; };
+		666B143F17BB2E8A00CC155A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 666B143D17BB2E8A00CC155A /* InfoPlist.strings */; };
+		666B144217BB2E8A00CC155A /* OFPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B144117BB2E8A00CC155A /* OFPlugin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		666B143317BB2E8A00CC155A /* OFPlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OFPlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		666B143617BB2E8A00CC155A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		666B143817BB2E8A00CC155A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		666B143C17BB2E8A00CC155A /* OFPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OFPlugin-Info.plist"; sourceTree = "<group>"; };
+		666B143E17BB2E8A00CC155A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		666B144017BB2E8A00CC155A /* OFPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OFPlugin.h; sourceTree = "<group>"; };
+		666B144117BB2E8A00CC155A /* OFPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OFPlugin.m; sourceTree = "<group>"; };
+		666B144317BB2E8A00CC155A /* OFPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OFPlugin-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		666B143017BB2E8A00CC155A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666B143717BB2E8A00CC155A /* AppKit.framework in Frameworks */,
+				666B143917BB2E8A00CC155A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		666B142A17BB2E8A00CC155A = {
+			isa = PBXGroup;
+			children = (
+				666B143A17BB2E8A00CC155A /* OFPlugin */,
+				666B143517BB2E8A00CC155A /* Frameworks */,
+				666B143417BB2E8A00CC155A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		666B143417BB2E8A00CC155A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				666B143317BB2E8A00CC155A /* OFPlugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		666B143517BB2E8A00CC155A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				666B143617BB2E8A00CC155A /* AppKit.framework */,
+				666B143817BB2E8A00CC155A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		666B143A17BB2E8A00CC155A /* OFPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				666B144017BB2E8A00CC155A /* OFPlugin.h */,
+				666B144117BB2E8A00CC155A /* OFPlugin.m */,
+				666B143B17BB2E8A00CC155A /* Supporting Files */,
+			);
+			path = OFPlugin;
+			sourceTree = "<group>";
+		};
+		666B143B17BB2E8A00CC155A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				666B143C17BB2E8A00CC155A /* OFPlugin-Info.plist */,
+				666B143D17BB2E8A00CC155A /* InfoPlist.strings */,
+				666B144317BB2E8A00CC155A /* OFPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		666B143217BB2E8A00CC155A /* OFPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666B144617BB2E8A00CC155A /* Build configuration list for PBXNativeTarget "OFPlugin" */;
+			buildPhases = (
+				666B142F17BB2E8A00CC155A /* Sources */,
+				666B143017BB2E8A00CC155A /* Frameworks */,
+				666B143117BB2E8A00CC155A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OFPlugin;
+			productName = OFPlugin;
+			productReference = 666B143317BB2E8A00CC155A /* OFPlugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		666B142B17BB2E8A00CC155A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = admsyn;
+			};
+			buildConfigurationList = 666B142E17BB2E8A00CC155A /* Build configuration list for PBXProject "OFPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 666B142A17BB2E8A00CC155A;
+			productRefGroup = 666B143417BB2E8A00CC155A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				666B143217BB2E8A00CC155A /* OFPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		666B143117BB2E8A00CC155A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666B143F17BB2E8A00CC155A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		666B142F17BB2E8A00CC155A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666B144217BB2E8A00CC155A /* OFPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		666B143D17BB2E8A00CC155A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				666B143E17BB2E8A00CC155A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		666B144417BB2E8A00CC155A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		666B144517BB2E8A00CC155A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		666B144717BB2E8A00CC155A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OFPlugin/OFPlugin-Prefix.pch";
+				INFOPLIST_FILE = "OFPlugin/OFPlugin-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		666B144817BB2E8A00CC155A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OFPlugin/OFPlugin-Prefix.pch";
+				INFOPLIST_FILE = "OFPlugin/OFPlugin-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		666B142E17BB2E8A00CC155A /* Build configuration list for PBXProject "OFPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666B144417BB2E8A00CC155A /* Debug */,
+				666B144517BB2E8A00CC155A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666B144617BB2E8A00CC155A /* Build configuration list for PBXNativeTarget "OFPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666B144717BB2E8A00CC155A /* Debug */,
+				666B144817BB2E8A00CC155A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 666B142B17BB2E8A00CC155A /* Project object */;
+}
